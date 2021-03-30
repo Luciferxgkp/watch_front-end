@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h3{
+    font-size: 30px;
+    font-style: italic;
+}
+.navbar{
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+}
+.website-logo{
+    flex: 1;
+    padding-left: 40px;
+}
+.website-logo a{
+    text-decoration: none;
+    color: red;
+}
+.options ul{
+    display: flex;
+    list-style: none;
+}
+.options ul li {
+    text-decoration: none;
+    padding:30px;
+}
+.options ul li a{
+    text-decoration: none;
+    color: white;
+}
+main{
+    padding-top: 10vh;
+    width: 100%;
+    height: auto;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.containers{
+    margin: 20px;
+    margin-top: 40px;
+    height: 60vh;
+    background: white;
+    width:60vh;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.containers img{
+    height: 10rem;
+    margin-top: 7rem;
+    margin-left: 10rem;
+    position:absolute;
+    transform: scale(1.7);
+}
+.row1,.row2,.row3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.buttons{
+    margin-top: 55vh;
+    display: flex;
+    justify-content: center;
+}
+button{
+    height: 40px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.add-to-cart{
+    border-radius: 0 0 0 16px;
+    background-color: white;
+    border: 2px solid darkred;
+    color: darkred;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.buy-now{
+    border-radius: 0 0 16px 0;
+    background-color: darkred;
+    color: white;
+    font-size: 16px;
+}
+
+.info{
+    position: absolute;
+    margin: 1rem;
+}
